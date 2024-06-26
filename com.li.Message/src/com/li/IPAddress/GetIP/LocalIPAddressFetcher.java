@@ -10,6 +10,7 @@ import java.util.Enumeration;
 
 /**
  * 使用getIPveAddress()方法查找本机IP地址，A类
+ * 使用时需要抛出异常SocketException
  * @author Lrn
  */
 public class LocalIPAddressFetcher implements IPAddressFetcher {
