@@ -1,3 +1,4 @@
+/*
 package com.li.Captcha;
 // This file is auto-generated, don't edit it. Thanks.
 
@@ -17,17 +18,14 @@ import darabonba.core.TeaPair;
 
 //import javax.net.ssl.KeyManager;
 //import javax.net.ssl.X509TrustManager;
-import java.net.InetSocketAddress;
-import java.time.Duration;
-import java.util.*;
 import java.util.concurrent.CompletableFuture;
-import java.io.*;
 
-public class AlibabaCloudSendSms {
+public class AlibabaCloudSendSmsAsync {
     public static void main(String[] args) throws Exception {
 
         // HttpClient Configuration
-        /*HttpClient httpClient = new ApacheAsyncHttpClientBuilder()
+        */
+/*HttpClient httpClient = new ApacheAsyncHttpClientBuilder()
                 .connectionTimeout(Duration.ofSeconds(10)) // Set the connection timeout time, the default is 10 seconds
                 .responseTimeout(Duration.ofSeconds(10)) // Set the response timeout time, the default is 20 seconds
                 .maxConnections(128) // Set the connection pool size
@@ -39,7 +37,8 @@ public class AlibabaCloudSendSms {
                 .x509TrustManagers(new X509TrustManager[]{})
                 .keyManagers(new KeyManager[]{})
                 .ignoreSSL(false)
-                .build();*/
+                .build();*//*
+
 
         // Configure Credentials authentication information, including ak, secret, token
         StaticCredentialProvider provider = StaticCredentialProvider.create(Credential.builder()
@@ -79,15 +78,18 @@ public class AlibabaCloudSendSms {
         SendSmsResponse resp = response.get();
         System.out.println(new Gson().toJson(resp));
         // Asynchronous processing of return values
-        /*response.thenAccept(resp -> {
+        */
+/*response.thenAccept(resp -> {
             System.out.println(new Gson().toJson(resp));
         }).exceptionally(throwable -> { // Handling exceptions
             System.out.println(throwable.getMessage());
             return null;
-        });*/
+        });*//*
+
 
         // Finally, close the client
         client.close();
     }
 
 }
+*/
