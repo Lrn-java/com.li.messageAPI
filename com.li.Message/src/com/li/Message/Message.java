@@ -203,5 +203,4 @@ public class Message {
         return checkCodes.substring(mod, mod + 1);
     }
 
-
 }
