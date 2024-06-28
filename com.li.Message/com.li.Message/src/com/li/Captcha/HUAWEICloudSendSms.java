@@ -7,4 +7,6 @@ package com.li.Captcha;
  * @author Lrn
  */
 public class HUAWEICloudSendSms {
+
+
 }
