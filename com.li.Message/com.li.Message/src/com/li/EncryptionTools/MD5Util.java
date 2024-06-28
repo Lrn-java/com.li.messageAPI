@@ -1,4 +1,4 @@
-package com.li.Message;
+package com.li.EncryptionTools;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

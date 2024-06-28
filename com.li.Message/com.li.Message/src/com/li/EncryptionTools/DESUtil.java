@@ -1,4 +1,4 @@
-package com.li.Message;
+package com.li.EncryptionTools;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -11,7 +11,7 @@ import java.security.SecureRandom;
  *
  * @author Lrn
  */
-public class TripleDESExample {
+public class DESUtil {
 
     // 生成3DES密钥
     public static SecretKey generate3DESKey() throws Exception {

@@ -72,6 +72,11 @@ public class LocalIPAddressFetcher implements IPAddressFetcher {
         return null;
     }
 
+    /**
+     * 获取本机B类IPv4地址
+     *
+     * @return 返回没有查到的结果Null
+     */
     @Override
     public InetAddress getBIPAddress() {
         try {
